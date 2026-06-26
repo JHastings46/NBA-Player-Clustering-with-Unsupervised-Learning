@@ -14,7 +14,7 @@ statistical archetypes using advanced stats and shot location data from the
 The model correctly placed all five 2026 First Team All-NBA players into 
 the Star Playmakers cluster using only statistics.
 
-🚀 **🚀 **[View Live Demo](https://nba-player-clustering-with-unsupervised-learninggit-jcnwog73jb.streamlit.app/)**
+🚀 **[View Live Demo](https://nba-player-clustering-with-unsupervised-learninggit-jcnwog73jb.streamlit.app/)**
 
 ---
 
