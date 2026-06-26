@@ -79,4 +79,4 @@ that no longer reflect how the game is played.
 ## Author
 
 Joel Hastings — M.S. Data Science, University of Colorado Boulder  
-[LinkedIn](www.linkedin.com/in/joel-hastings-976bb855) | [Portfolio](#)
+[LinkedIn](https://www.linkedin.com/in/joel-hastings-976bb855) | [Portfolio](https://github.com/JHastings46)
