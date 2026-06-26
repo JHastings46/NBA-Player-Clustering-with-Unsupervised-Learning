@@ -82,3 +82,24 @@ fig, ax = plt.subplots(figsize=(10, 6))
 for archetype_name, color in ARCHETYPE_COLORS.items():
     mask = assignments['archetype'] == archetype_name
     ax.scatter(
+        X_pca[mask, 0], X_pca[mask, 1],
+        label=archetype_name, color=color,
+        s=20, alpha=0.7
+    )
+
+player_idx = assignments[assignments['Player'] == selected_player].index[0]
+ax.scatter(
+    X_pca[player_idx, 0], X_pca[player_idx, 1],
+    color='black', s=120, zorder=5, marker='*'
+)
+ax.annotate(
+    selected_player,
+    (X_pca[player_idx, 0], X_pca[player_idx, 1]),
+    fontsize=9, xytext=(8, 8), textcoords='offset points'
+)
+
+ax.set_xlabel('PC1')
+ax.set_ylabel('PC2')
+ax.set_title('NBA Player Archetypes (PCA Space)')
+ax.legend(fontsize=9)
+st.pyplot(fig)
