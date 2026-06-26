@@ -1,5 +1,5 @@
 # NBA-Player-Clustering-with-Unsupervised-Learning
-# NBA Player Clustering with Unsupervised Learning
+
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-1.4-orange)
